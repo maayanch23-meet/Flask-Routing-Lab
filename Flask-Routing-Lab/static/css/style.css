@@ -1,7 +1,46 @@
 h1{
 	color: DimGrey;
-	font-family: "Trirong", serif;
 }
 body{
 	background-color: Bisque;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.linkhome:link, .linkhome:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.linkhome:hover, .linkhome:active {
+  background-color: green;
+  color: white;
+}
+.cart:link, .cart:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cart:hover, .cart:active {
+  background-color: black;
+  color: white;
 }
