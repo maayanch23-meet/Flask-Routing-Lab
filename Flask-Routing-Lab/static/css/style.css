@@ -2,7 +2,9 @@ h1{
 	color: DimGrey;
 }
 body{
+	font-family: "Lucida Console", "Courier New", monospace;
 	background-color: Bisque;
+	text-align: center
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
